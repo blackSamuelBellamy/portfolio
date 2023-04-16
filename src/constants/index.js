@@ -16,7 +16,6 @@ import {
   bootstrap,
   pizza,
   dalle,
-  tripguide,
   three,
   postgresql,
   pokemon,

@@ -10,9 +10,9 @@ const Tech = () => {
     <div className="flex flex-col">
       <motion.div variants={slideIn("right", "tween", 0.2, 1)}>
         <motion.p variants={fadeIn("", "", 1, 1)}>
-          <h2 className={`${styles.sectionHeadText} text-center mb-[100px]`}>
+          <span className={`${styles.sectionHeadText} block text-center mb-[100px]`}>
             Mis Habilidades
-          </h2>
+          </span>
         </motion.p>
       </motion.div>
       <div className="flex flex-row flex-wrap justify-center gap-10">

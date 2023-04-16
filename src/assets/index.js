@@ -63,5 +63,6 @@ export {
   express,
   pokemon,
   pizza,
-  dalle
+  dalle,
+  carrent
 };

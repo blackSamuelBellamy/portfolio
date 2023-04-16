@@ -9,8 +9,8 @@ const Hero = () => {
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
       >
         <div className=" flex flex-col justify-center items-center mt-5">
-          <div className="h-5 w-5 rounded-full bg-[#9153ff]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="h-5 w-5 rounded-full bg-[#9153ff]"></div>
+          <div className="w-1 sm:h-80 h-40 violet-gradient"></div>
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </a>
       </div>
-      <di className='absolute bottom-0 h-[50px] w-full hero-gradient z-10'></di>
+      <div className="absolute bottom-0 h-[50px] w-full hero-gradient z-10"></div>
     </section>
   );
 };
