@@ -14,11 +14,8 @@ const Ball = props => {
   const [position, setPosition] = useState([0, 0, 0])
 
   useEffect(() => {
-    const animateBall = () => {
     const newPos = [position[0], Math.sin(Date.now() * 0.001) * 0.5, position[2]];
     setPosition(newPos);
-    };
-    animateBall();
     }, [position]);
 
   return (
@@ -35,7 +32,7 @@ const Ball = props => {
         scale={2.75}
         position={position}
       >
-        <icosahedronGeometry  args={[1, 1]} />
+        <icosahedronGeometry  args={[1, 1, 1]} />
         <meshStandardMaterial 
           color="#fff8eb"
           polygonOffset
