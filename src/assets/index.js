@@ -53,7 +53,6 @@ export {
   redux,
   tailwind,
   threejs,
-  carrent,
   jobit,
   tripguide,
   three,
