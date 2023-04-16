@@ -32,7 +32,7 @@ const ExperienceCard = ({ experience }) => {
           <img
             src={experience.icon}
             alt={experience.content}
-            className="w-[60%] h-[60%] object-contain"
+            className="w-[90%] h-[90%] object-contain rounded-full"
           />
           </a>
         </div>
